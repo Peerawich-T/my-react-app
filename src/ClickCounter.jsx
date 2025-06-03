@@ -5,6 +5,7 @@ function ClickCounter() {
     const [updateMsg, setUpdateMsg] = useState("");
     useEffect(() => {
       setUpdateMsg("Count Just Updated to " + count)
+      
     }, [count])
     return <>
     <h2>

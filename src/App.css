@@ -11,3 +11,12 @@
 .read-the-docs {
   color: #888;
 }
+
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(5, 100px); /* 5 per row */
+  gap: 200px;
+  justify-content: center;
+  margin-top: 40px;
+}
